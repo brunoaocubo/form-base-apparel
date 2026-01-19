@@ -1,5 +1,17 @@
 @media screen and (min-width: 550px) {
-    body{
-        background-color: black;
+    main{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    #img{
+        background-image: url(../images/hero-desktop.jpg);   
+        background-position: top center;
+        width: 50%;
+        height: 100%;
+        order: 2;
+        background-size: cover;
+    }
+    #main-content{
+        width: 50%;
     }
 }
