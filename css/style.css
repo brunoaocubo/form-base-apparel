@@ -1,7 +1,13 @@
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 600px) {
+    body{
+        padding-left: 40px;
+    }
     main{
         display: flex;
         flex-flow: column wrap;
+    }
+    .description, #subscribe{
+        max-width: 500px;
     }
     #img{
         background-image: url(../images/hero-desktop.jpg);   
@@ -13,5 +19,16 @@
     }
     #main-content{
         width: 50%;
+        padding-top: 5%;
+        padding-right: 50px;
+    }
+    .main-title{
+       text-align: left;
+    }
+    .description{
+        text-align: left;   
+    }
+    .email-error{
+        background-position: 75%; 
     }
 }

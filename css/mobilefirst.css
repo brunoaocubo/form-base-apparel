@@ -24,7 +24,7 @@ body{
 }
 
 #logo{
-    padding: 30px;
+    padding: 40px 20px;
 }
 
 main{
@@ -51,13 +51,13 @@ main{
     color: var(--Pink400);
     font-weight: 600;
     text-align: center;
-    padding: 20px 30px;
+    padding: 20px 20px;
     line-height: 1.5em;
 }
 
 form{
     width: 100%;
-    padding: 20px 30px;
+    padding: 20px 20px;
 }
 
 #subscribe{
@@ -69,9 +69,6 @@ form{
 
 #email{
     font-family: 'Josefin Sans';
-    border: none;
-    border: 1px solid var(--Pink400);
-    border-radius: 30px;
     width: 100%;
     padding: 20px 50px 20px 30px;
     font-size: 1em;
@@ -87,6 +84,12 @@ form{
     outline-color: var(--Red500);
 }
 
+.email-border{
+    border: none;
+    border: 1px solid var(--Pink400);
+    border-radius: 30px;
+}
+
 #submit{
     position: absolute;
     right: 0%;
@@ -94,7 +97,6 @@ form{
     transform: translateY(-50%);
     padding: 17px 30px;
     border-radius: 30px;
-    
     background-image: linear-gradient(var(--Linear2));
     border: none;
 }
@@ -108,8 +110,8 @@ form{
 .email-error{
     background-image: url(../images/icon-error.svg);
     background-repeat: no-repeat;  
-    background-position-x: 85%;
-    background-position-y: 50%;
+    background-position: 80%;
+    border: 1px solid var(--Red500);
 }
 
 #context-error{
