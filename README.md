@@ -12,3 +12,7 @@ Página front-end representando um Coming Soon, como o objetivo de mostrar a cri
 **Feedback:**
 
 <img width="490" height="199" alt="image" src="https://github.com/user-attachments/assets/ce214b52-18c0-410d-835e-b64c78e521f9" />
+
+🧪 Tecnologias
+HTML5 / CSS3 (Layout e estilização)
+JavaScript (ES6+) (Lógica e manipulação de DOM)
